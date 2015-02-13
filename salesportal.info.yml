@@ -1,0 +1,41 @@
+name: Capgemini Sales Portal
+type: profile
+description: 'Capgemini Sales Portal'
+core: 8.x
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+# Providing distribution information will auto-select this profile in the installer.
+distribution:
+  name: Capgemini Sales Portal
+
+# Core modules
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - config
+  - comment
+  - contextual
+  - contact
+  - custom_block
+  - edit
+  - help
+  - image
+  - menu
+  - number
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - responsive_preview
+  - search
+  - shortcut
+  - toolbar
+  - overlay
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - editor
+  - ckeditor
