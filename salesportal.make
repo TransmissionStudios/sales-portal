@@ -7,9 +7,10 @@ projects[devel][version] = "1.x-dev"
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
-projects[backup_migrate][version] = "3.x-dev"
-projects[backup_migrate][type] = "module"
-projects[backup_migrate][subdir] = "contrib"
+; Error in module with beta6
+; projects[backup_migrate][version] = "3.x-dev"
+; projects[backup_migrate][type] = "module"
+; projects[backup_migrate][subdir] = "contrib"
 
 ; Custom modules
 projects[salesportal-deploy][type] = "module"
