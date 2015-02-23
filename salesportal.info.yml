@@ -47,7 +47,7 @@ dependencies:
 
  # Contrib modules
   - devel
-  - backup_migrate
+ # - backup_migrate - error with beta6
 
 themes:
   - classy
