@@ -11,3 +11,9 @@ projects[devel][subdir] = "contrib"
 
 projects[backup_migrate][version] = "3.x-dev"
 projects[backup_migrate][subdir] = "contrib"
+
+; Custom modules
+projects['salesportal-deploy'][subdir] = "custom"
+projects['salesportal-deploy'][type] = "module"
+projects['salesportal-deploy'][download][type] = "git"
+projects['salesportal-deploy'][download][url] = "git@github.com:TransmissionStudios/salesportal-deploy.git"
