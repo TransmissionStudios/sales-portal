@@ -45,10 +45,6 @@ dependencies:
   - breakpoint
   - responsive_image
 
- # Contrib modules
-  - devel
- # - backup_migrate - error with beta6
-
 themes:
   - classy
   - seven
