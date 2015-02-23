@@ -44,7 +44,11 @@ dependencies:
   - tour
   - breakpoint
   - responsive_image
+
  # Contrib modules
+  - devel
+  - backup_migrate
+
 themes:
   - classy
   - seven
