@@ -7,6 +7,12 @@ projects[devel][version] = "1.x-dev"
 projects[devel][type] = "module"
 projects[devel][subdir] = "contrib"
 
+; Theme
+projects[salesportal_theme][type] = "theme"
+projects[salesportal_theme][download][type] = "git"
+projects[salesportal_theme][download][url] = "git@github.com:TransmissionStudios/salesportal-theme.git"
+projects[salesportal_theme][directory_name] = "sales_portal"
+
 ; Error in module with beta6
 ; projects[backup_migrate][version] = "3.x-dev"
 ; projects[backup_migrate][type] = "module"
